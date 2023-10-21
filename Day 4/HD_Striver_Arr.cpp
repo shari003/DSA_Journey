@@ -86,6 +86,31 @@ int main(){
     // }
 
     // Q. 4 - Sum
+    // vector<int> arr = {4, 3, 3, 4, 4, 2, 1, 2, 1, 1};
+    // int target = 9;
+    // sort(arr.begin(), arr.end());
+    // int n = arr.size();
+    // for(int i = 0; i < n; i++){
+    //     if(i > 0 && arr[i-1] == arr[i]) continue;
+    //     for(int j = i+1; j < n; j++){
+    //         if(j > i+1 && arr[j-1] == arr[j]) continue;
+    //         int k = j+1, l = n-1;
+    //         while(k < l){
+    //             int s = arr[i] + arr[j] + arr[k] + arr[l];
+    //             if(s == target){
+    //                 cout << arr[i] << " " << arr[j] << " " << arr[k] << " " << arr[l] << endl;
+    //                 k++;
+    //                 l--;
+    //                 while(k < l && arr[k] == arr[k-1]) k++;
+    //                 while(k < l && arr[l] == arr[l-1]) l--;
+    //             } else if(s > target){
+    //                 l--;
+    //             } else {
+    //                 k++;
+    //             }
+    //         }
+    //     }
+    // }
 
     // Q. Length of the longest subarray with zero Sum
     // map<int, int> mpp;
